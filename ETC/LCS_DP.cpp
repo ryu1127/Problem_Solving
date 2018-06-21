@@ -1,12 +1,12 @@
 #include<cstdio>
 #include<iostream>
+#include<vector>
 
 using namespace std;
 
 int lcs(char *X, char *Y, int m, int n);
 
 int main(){
-
     char X[] = "AGGTAB";
     char Y[] = "GXTXAYB";
 
@@ -27,8 +27,12 @@ int lcs(char *X, char *Y, int m, int n){
         for(j=0;j<=n;j++){
             if(i==0||j==0)
                 L[i][j] = 0;
-            else if (X[i-1] == Y[j-1])
+            else if (X[i-1] == Y[j-1]){
                 L[i][j] = L[i-1][j-1] + 1;
+                printf("i : %d, j : %d , ",i,j);
+                printf("X[i] : %c, Y[j] : %c, ",X[i],Y[j]);
+                printf("%c\n",X[i]);
+            }
             else
                 L[i][j] = max(L[i-1][j],L[i][j-1]);
         }

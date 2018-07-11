@@ -9,7 +9,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/Users/dongheonryu/Documents/GitHub/BJ_Algorithm/a.out",
+            "program": "/Users/dongheonryu/Documents/GitHub/Problem_Solving/ETC/shake/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

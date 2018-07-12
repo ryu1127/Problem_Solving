@@ -28,13 +28,13 @@ int main(){
         result = temp_result/n;
         for(int j=0;j<n;j++){
             if(a[j]>int(result)) cnt++;
-            printf("cnt : %d\n",cnt);
+            // printf("cnt : %d\n",cnt);
         }
-        cout << "average : " << result << endl;
-        cout << "cnt : " << cnt << endl;
-        cout << "n : " << n << endl;
+        // cout << "average : " << result << endl;
+        // cout << "cnt : " << cnt << endl;
+        // cout << "n : " << n << endl;
         result = double(cnt*100)/double(n);
-        cout << "result : " << result << endl;
+        // cout << "result : " << result << endl;
         printf("%.3lf",result);
         printf("%%\n");
     }

@@ -27,7 +27,7 @@ int main(){
     }
     for(int i=1;i<=10000;i++){
         if(num[i]==1) printf("%d\n",i);
-        // printf("num[%d] : %d\n",i,num[i]);
+        printf("num[%d] : %d\n",i,num[i]);
     }
     return 0;
 }

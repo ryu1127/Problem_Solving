@@ -6,8 +6,19 @@ using namespace std;
 
 
 vector<int> solution(int N, vector<int> stages){
-    vector<int> answer(stages);
-    cout << answer.size() << endl;
+    vector<int> answer;
+    int a[501] = {0};
+    int size = stages.size();
+    for(int i=0;i<size;i++){
+        a[stages[i]] += 1 ;
+    }
+    
+
+
+    sort(answer.begin(),answer.end());
+    
+    
+    
     
     return answer;
 }

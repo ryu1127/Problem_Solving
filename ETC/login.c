@@ -49,7 +49,7 @@ int main(){
 
     user_id[0]=123;
     user_pwd[0]=456;
-    
+
     //overtime은 대기 시간을 2배씩 증가시키기 위한 변수
     int overtime;
     overtime = 1;
@@ -102,6 +102,8 @@ int main(){
 
 
 int addUser(){
-    
+    int id;
+    int pwd;
+    printf("추가할 사용자 ID를 입력하세요 : "); scanf("%d",)
 }
 

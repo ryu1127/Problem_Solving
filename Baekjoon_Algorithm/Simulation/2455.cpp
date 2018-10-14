@@ -1,8 +1,5 @@
 #include<cstdio>
 
-
-
-
 int main(){
 
     int train[5] = {0};

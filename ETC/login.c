@@ -101,9 +101,3 @@ int main(){
 }
 
 
-int addUser(){
-    int id;
-    int pwd;
-    printf("추가할 사용자 ID를 입력하세요 : "); scanf("%d",)
-}
-

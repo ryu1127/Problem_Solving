@@ -23,6 +23,7 @@ int main() {
 
 	int max = 1;
 	int count = 1;
+	
 	long long result = v[0];
 	for (int i = 0; i<n-1; i++) {
 		if (v[i] == v[i + 1]) count++;

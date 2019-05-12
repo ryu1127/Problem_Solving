@@ -15,7 +15,14 @@ int main(){
         for(i=0;i<line-1;i++){
             printf(" *");
         }
+        for(i=1;i<=n-line;i++){
+            printf(" ");
+        }
     }
     return 0;
 
 }
+
+
+
+

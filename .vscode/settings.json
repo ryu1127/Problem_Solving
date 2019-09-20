@@ -11,6 +11,8 @@
         "ostream": "cpp",
         "memory": "cpp",
         "utility": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "stdio.h": "c",
+        "algorithm": "c"
     }
 }
